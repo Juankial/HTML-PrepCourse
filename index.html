@@ -1,72 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Mi página web</title>
-    </head>
-    <body>
-        <header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Prep Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content"></div>
+    <h1>Bienvenidos a HTML Prep Course</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li><a href="#">Contenido del Curso</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
 
-            <h1>Mi página web</h1>
-                <p class="miTexto">Mi nombre es Juan Agustin.</p>
+  <main>
+    <section>
+      <h2 class="section-title">Sobre el Curso</h2>
+      <p class="section-description">Este curso de preparación para HTML está diseñado para enseñarte los conceptos básicos de HTML y prepararte para un desarrollo web más avanzado. Aprenderás a crear páginas web bien estructuradas y a comprender los conceptos básicos de HTML.</p>
+    </section>
 
-        </header>
+    <section>
+      <h2 class="section-title">Contenido del Curso</h2>
+      <div class="image-container">
+        <img src="https://via.placeholder.com/300x200" alt="HTML Basics" class="course-image">
+        <p class="image-caption">HTML Basicos</p>
+      </div>
+      <div class="image-container">
+        <img src="https://via.placeholder.com/300x200" alt="HTML Tags and Elements" class="course-image">
+        <p class="image-caption">HTML Etiquetas y Elementos</p>
+      </div>
+      <div class="image-container">
+        <img src="https://via.placeholder.com/300x200" alt="HTML Structure" class="course-image">
+        <p class="image-caption">Estructura HTML</p>
+      </div>
+    </section>
 
-        <main>
-            <img src="./noticias.jpg" alt="imagen de noticias">
-            <section>
+    <section>
+      <h2 class="section-title">¿Quiénes somos?</h2>
+      <p class="section-description">Somos un equipo de expertos en desarrollo web que se dedica a capacitar a estudiantes en las habilidades necesarias para construir sitios web atractivos y funcionales.</p>
+    </section>
 
-                <h2>2do Titulo</h2>
+    <div class="cta-section">
+      <a href="#" class="btn">Unete</a>
+      <a href="contacto.html" class="btn">Contactanos</a>
+    </div>
+  </main>
 
-                    <article>
-                        <h3>3er Titulo</h3>
-
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eaque cupiditate atque vitae commodi consequatur a. Consequuntur, harum, velit ipsam officiis reiciendis perspiciatis quos error, neque magnam repudiandae nulla earum.</p>
-                            </div>
-
-                    </article>
-
-                            <hr>
-
-                                <article>
-
-                                    <h4>4to Titulo</h4>
-                                        <p>Listado Ordenado</p>
-                                            <ol>
-                                                <li>Item 1</li>
-                                                <li>Item 2</li>
-                                                <li>Item 3</li>
-                                            </ol>
-
-                                </article>
-
-                            <hr>
-
-                            <article>
-
-                                    <h4>5to Titulo</h4>
-                                        <p>Listado Desordenado</p>
-                                            <ul>
-                                                <li>Item</li>
-                                                <li>Item</li>
-                                                <li>Item</li>
-                                            </ul>
-
-                            </article>
-
-            </section>
-
-        </main>
-
-        <footer>
-
-            <p>Este es el footer de mi pagina</p>
-            <a href="./contacto.html">Formulario de Contacto</a>
-
-        </footer>
-    
-    </body>
+  <footer>
+    <p>&copy; 2024 HTML Prep Course. All rights reserved.</p>
+  </footer>
+</body>
 </html>
